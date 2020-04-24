@@ -17,3 +17,8 @@ Content-Type: application/json
 	"email": "alex.paclin@gmail.com",
 	"password": "ghjcnjrdfif"
 }
+
+### AUTH
+
+GET http://localhost:3000/api/users/auth
+Content-Type: application/json
