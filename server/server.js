@@ -3,12 +3,11 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 
-const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 
 // middleware
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
+app.use(express.urlencoded({ extended: true }))
+app.use(express.json());
 app.use(cookieParser());
 
 // mongo db
