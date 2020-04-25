@@ -1,3 +1,9 @@
+### WAVES
+
+### ===============================
+###             USERS
+### ===============================
+
 ### REGISTER
 POST http://localhost:3000/api/users/register
 Content-Type: application/json
@@ -6,7 +12,8 @@ Content-Type: application/json
 	"email": "alex.paclin@gmail.com",
 	"password": "ghjcnjrdfif",
 	"name": "Alex",
-	"lastname": "Paclin"
+	"lastname": "Paclin",
+	"role": 1
 }
 
 ### LOGIN
@@ -19,7 +26,6 @@ Content-Type: application/json
 }
 
 ### AUTH
-
 GET http://localhost:3000/api/users/auth
 Content-Type: application/json
 
@@ -27,3 +33,18 @@ Content-Type: application/json
 GET http://localhost:3000/api/users/logout
 Content-Type: application/json
 
+### ===============================
+###             BRAND
+### ===============================
+
+### ADD BRAND
+POST http://localhost:3000/api/product/brand
+Content-Type: application/json
+
+{
+	"name": "Ibanez"
+}
+
+### GET LIST OF BRANDS
+GET http://localhost:3000/api/product/brands
+Content-Type: application/json
