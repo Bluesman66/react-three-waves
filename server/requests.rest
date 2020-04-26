@@ -90,3 +90,11 @@ Content-Type: application/json
 ### GET ARTICLES BY ID
 GET http://localhost:3000/api/product/articles_by_id?id=5b2d3648ca6a03cd33af924c,5b2d38027d75e2cdcb31cf04&type=array
 Content-Type: application/json
+
+### GET NEW ARRIVALS
+GET http://localhost:3000/api/product/articles?sortBy=createdAt&order=desc&limit=4
+Content-Type: application/json
+
+### GET BEST SELLERS
+GET http://localhost:3000/api/product/articles?sortBy=sold&order=desc&limit=100&skip=5
+Content-Type: application/json
