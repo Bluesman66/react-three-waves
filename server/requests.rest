@@ -86,3 +86,7 @@ Content-Type: application/json
     "frets": 22,
     "publish": true
 }
+
+### GET ARTICLES BY ID
+GET http://localhost:3000/api/product/articles_by_id?id=5b2d3648ca6a03cd33af924c,5b2d38027d75e2cdcb31cf04&type=array
+Content-Type: application/json
