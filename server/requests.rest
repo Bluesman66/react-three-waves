@@ -48,3 +48,19 @@ Content-Type: application/json
 ### GET LIST OF BRANDS
 GET http://localhost:3000/api/product/brands
 Content-Type: application/json
+
+### ===============================
+###             WOODS
+### ===============================
+
+### ADD WOOD
+POST http://localhost:3000/api/product/wood
+Content-Type: application/json
+
+{
+	"name": "alder"
+}
+
+### GET WOODS
+GET http://localhost:3000/api/product/woods
+Content-Type: application/json
