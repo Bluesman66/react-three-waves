@@ -1,4 +1,6 @@
-### WAVES
+### ===============================
+###             WAVES
+### ===============================
 
 ### ===============================
 ###             USERS
@@ -64,3 +66,23 @@ Content-Type: application/json
 ### GET WOODS
 GET http://localhost:3000/api/product/woods
 Content-Type: application/json
+
+### ===============================
+###            PRODUCTS
+### ===============================
+
+### ADD ARTICLE
+POST http://localhost:3000/api/product/article
+Content-Type: application/json
+
+{
+    "name": "AZ2040",
+    "description": "Super awesome guitar",
+    "price": 2000,
+    "brand": "5b2c11d2d37177aedfd6d962",
+    "shipping": true,
+    "available": true,
+    "wood": "5b2c1c88255983b4795f8fdb",
+    "frets": 22,
+    "publish": true
+}
