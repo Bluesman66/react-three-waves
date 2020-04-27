@@ -1,0 +1,25 @@
+{
+	"name": "react-three-waves",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"server": "npm run server --prefix server",
+		"client": "npm run start --prefix client",
+		"dev": "concurrently \"npm run server\" \"npm run client\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Bluesman66/react-three-waves.git"
+	},
+	"author": "Alex Paclin (alex.paclin@gmail.com)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Bluesman66/react-three-waves/issues"
+	},
+	"homepage": "https://github.com/Bluesman66/react-three-waves#readme",
+	"dependencies": {
+		"concurrently": "^5.2.0"
+	}
+}
