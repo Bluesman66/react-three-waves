@@ -1,8 +1,8 @@
 import { LOGIN_USER } from './types';
-import { USER_SERVER } from '../components/utils/misc';
+import { USER_SERVER } from '../components/utils';
 import axios from 'axios';
 
-export function loginUser(dataToSubmit) {
+function loginUser(dataToSubmit) {
 	const request = axios.post(`${USER_SERVER}/login`, dataToSubmit).then((response) => response.data);
 
 	return {
@@ -10,3 +10,5 @@ export function loginUser(dataToSubmit) {
 		payload: request,
 	};
 }
+
+export { loginUser };
