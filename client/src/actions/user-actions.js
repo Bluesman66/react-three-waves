@@ -1,5 +1,5 @@
-import { LOGIN_USER } from './types';
-import { USER_SERVER } from '../components/utils';
+import { LOGIN_USER, USER_SERVER } from '../consts';
+
 import axios from 'axios';
 
 function loginUser(dataToSubmit) {

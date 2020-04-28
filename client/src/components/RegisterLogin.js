@@ -1,5 +1,5 @@
 import Login from './Login';
-import { MyButton } from './utils';
+import { MyButton } from '../utils';
 import React from 'react';
 
 const RegisterLogin = () => {

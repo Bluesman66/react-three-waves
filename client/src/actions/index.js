@@ -1,4 +1,5 @@
-import { LOGIN_USER } from './types';
+import { generateData, isFormValid, update, validate } from './form-actions';
+
 import { loginUser } from './user-actions';
 
-export { LOGIN_USER, loginUser };
+export { loginUser, validate, update, generateData, isFormValid };
